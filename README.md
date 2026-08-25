@@ -9,7 +9,6 @@ This project is an AI-powered Enrichment Pipeline designed to transform messy, u
 - **Constrained AI Extraction:** Uses the Gemini model (1.5-flash / 3.6-flash) strictly to extract specific properties (Manufacturer, Brand, Size, Material, Voltages) to build 100% compliant `MOBILE_DESC`, `INVOICE_DESC`, and structured attribute columns.
 - **Explainability & Validation Dashboard:** Includes a built-in validation mechanism where the AI rates its own confidence on a 1-100 scale, flags ambiguous items for human review, and explains its extraction reasoning line-by-line.
 - **Rich Interactive UI:** Built with Streamlit and custom CSS for a premium dark-mode, glassmorphism aesthetic complete with data visualizations (Confidence Score distributions).
-- **Offline / Mock Mode:** A robust "Mock Mode" feature allows for seamless demonstrations even when API limits are hit.
 
 ### 🛠️ Tech Stack
 - **Frontend:** Streamlit, Pandas Styler, Custom CSS
